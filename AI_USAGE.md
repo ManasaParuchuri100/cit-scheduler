@@ -1,17 +1,5 @@
 # AI usage
 
-## Models and APIs the product calls
-
-| Where | Model | What it does | Required? |
-|---|---|---|---|
-| `cit/parser.py` `parse_claude` | Anthropic Claude (`ANTHROPIC_MODEL`, default `claude-sonnet-4-5`) | Reads a plain-English or Hinglish room request and returns JSON that fills the booking form. | No. Only when `ANTHROPIC_API_KEY` is set. |
-
-No other model or API is called. The assistant box (`cit/assistant.py`), the explanations (`cit/explain.py`)
-and the change drafts are plain code and rules, with no model.
-
-If the key is missing, wrong, out of credit or the network is down, the same form is filled by the built-in
-rule reader (`parse_rules`) and the manual booking form always works.
-
 ## What the model is not allowed to decide
 
 The model only turns words into a form that a person then checks and edits. It never decides anything:

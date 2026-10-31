@@ -1,0 +1,145 @@
+{
+  "dataset_id": "cit-public-v1",
+  "institute": "Chilika Institute of Technology (fictional)",
+  "calendar": {
+    "days": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ],
+    "periods": [
+      {
+        "id": 1,
+        "start": "08:00",
+        "end": "09:00",
+        "teaching": true
+      },
+      {
+        "id": 2,
+        "start": "09:00",
+        "end": "10:00",
+        "teaching": true
+      },
+      {
+        "id": 3,
+        "start": "10:00",
+        "end": "11:00",
+        "teaching": true
+      },
+      {
+        "id": 4,
+        "start": "11:00",
+        "end": "12:00",
+        "teaching": true
+      },
+      {
+        "id": 5,
+        "start": "12:00",
+        "end": "13:00",
+        "teaching": true
+      },
+      {
+        "id": 6,
+        "start": "14:00",
+        "end": "15:00",
+        "teaching": true
+      },
+      {
+        "id": 7,
+        "start": "15:00",
+        "end": "16:00",
+        "teaching": true
+      },
+      {
+        "id": 8,
+        "start": "16:00",
+        "end": "17:00",
+        "teaching": true
+      },
+      {
+        "id": 9,
+        "start": "17:00",
+        "end": "18:00",
+        "teaching": true
+      },
+      {
+        "id": 10,
+        "start": "18:00",
+        "end": "19:00",
+        "teaching": false
+      },
+      {
+        "id": 11,
+        "start": "19:00",
+        "end": "20:00",
+        "teaching": false
+      },
+      {
+        "id": 12,
+        "start": "20:00",
+        "end": "21:00",
+        "teaching": false
+      },
+      {
+        "id": 13,
+        "start": "21:00",
+        "end": "22:00",
+        "teaching": false
+      }
+    ],
+    "lunch": {
+      "after_period": 5,
+      "start": "13:00",
+      "end": "14:00"
+    },
+    "lab_start_periods": [
+      2,
+      6
+    ],
+    "event_only_periods": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "fest_week": "Week 7 (Spectra '27)",
+    "exam_week": {
+      "days": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI",
+        "SAT"
+      ],
+      "sessions": [
+        {
+          "id": "AM",
+          "start": "09:30",
+          "end": "11:30"
+        },
+        {
+          "id": "PM",
+          "start": "14:00",
+          "end": "16:00"
+        }
+      ]
+    }
+  },
+  "priority_order": [
+    "exam",
+    "regular_session",
+    "institute_event",
+    "guest_lecture",
+    "department_event",
+    "club_event"
+  ],
+  "role_category_cap": {
+    "admin": "institute_event",
+    "faculty": "guest_lecture",
+    "department_coordinator": "department_event",
+    "club": "club_event"
+  }
+}

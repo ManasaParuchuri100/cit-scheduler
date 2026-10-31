@@ -1,0 +1,11 @@
+# local state and secrets
+var/
+.env
+# python
+__pycache__/
+*.pyc
+.venv/
+# editor and system
+.DS_Store
+.idea/
+.vscode/

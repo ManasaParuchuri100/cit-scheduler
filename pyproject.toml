@@ -1,0 +1,10 @@
+[project]
+name = "cit-scheduler"
+version = "1.0.0"
+description = "Campus scheduling and venue app for the Chilika Institute of Technology"
+requires-python = ">=3.10"
+# anthropic is left out on purpose: it is optional, and the app is smaller without it
+dependencies = ["fastapi>=0.110", "ortools>=9.9"]
+
+[tool.vercel]
+entrypoint = "cit.api:app"

@@ -1,0 +1,6 @@
+tests/
+examples/
+var/
+.venv/
+__pycache__/
+*.zip
